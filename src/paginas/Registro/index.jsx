@@ -13,7 +13,7 @@ function Registro() {
   };
 
   return (
-    <div className="registro-container">
+    <main className="registro-container">
       <h2>Registro de Usuario</h2>
       <form onSubmit={handleSubmit}>
         <input
@@ -42,7 +42,7 @@ function Registro() {
       <p>
         ¿Ya tienes cuenta? <a href="/login">Inicia sesión</a>
       </p>
-    </div>
+  </main>
   );
 }
 

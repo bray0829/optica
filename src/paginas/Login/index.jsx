@@ -12,10 +12,7 @@ function Login() {
   };
 
   return (
-    <div className="login-container">
-      {/* ✅ Aquí se muestra el botón */}
-      
-
+    <main className="login-container">
       <h2>Iniciar Sesión</h2>
       <form onSubmit={handleSubmit}>
         <input
@@ -37,7 +34,7 @@ function Login() {
       <p>
         ¿No tienes cuenta? <a href="/registro">Regístrate aquí</a>
       </p>
-    </div>
+    </main>
   );
 }
 

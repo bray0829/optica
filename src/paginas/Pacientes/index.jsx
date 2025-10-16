@@ -11,16 +11,12 @@ const Pacientes = () => {
   ];
 
   return (
-    <div>
-      
-      <main className="pacientes">
-        <h2>Lista de Pacientes</h2>
-        {pacientes.map((p, index) => (
-          <InfoPaciente key={index} {...p} />
-        ))}
-      </main>
-      
-    </div>
+    <main className="pacientes">
+      <h2>Lista de Pacientes</h2>
+      {pacientes.map((p, index) => (
+        <InfoPaciente key={index} {...p} />
+      ))}
+    </main>
   );
 };
 
